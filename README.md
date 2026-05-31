@@ -65,6 +65,12 @@ Use the CLI first. Import the Python functions when you want to embed the same b
 
 It helps small agent repos ship with the operating docs maintainers usually forget.
 
+## Used With
+
+- Generate launch, release, and eval checklists for the other HighStar AI devtools.
+- Pair with `promptbeat-lite` to make the eval checklist concrete.
+- Pair with `agent-trace-summarizer` to turn failure reports into release blockers.
+
 ## Roadmap
 
 See [ROADMAP.md](ROADMAP.md).

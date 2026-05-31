@@ -4,9 +4,9 @@ target_user: Agent tool maintainers
 pain_point: Agent projects often lack release, eval, and launch checklists.
 demo_command: PYTHONPATH=src python3 -m agent_runbook_kit examples/project.yaml
 tier: baseline
-maturity_status: hardened-2026-05-31
-next_release: v0.1.1
-polish_score: 80
+maturity_status: support-aligned-2026-05-31
+next_release: v0.1.2
+polish_score: 82
 topics:
   - ai-tools
   - agents
@@ -18,9 +18,9 @@ release_channel:
   - github
   - relevant-developer-communities
 launch_copy:
-  - I built agent-runbook-kit: Generate a minimal runbook kit for AI agent repositories.
+  - I built agent-runbook-kit as the operating checklist generator for small AI agent repos.
   - The pain: Agent projects often lack release, eval, and launch checklists.
-  - Try it with: PYTHONPATH=src python3 -m agent_runbook_kit examples/project.yaml
+  - Try it with: PYTHONPATH=src python3 -m agent_runbook_kit examples/project.yaml --kind all
 quality_gate:
   commands:
     - python3 -m unittest discover -s tests
