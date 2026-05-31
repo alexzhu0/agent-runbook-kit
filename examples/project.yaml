@@ -1,0 +1,3 @@
+name: trace-debug-agent
+audience: AI agent maintainers
+demo: PYTHONPATH=src python3 -m unittest discover -s tests

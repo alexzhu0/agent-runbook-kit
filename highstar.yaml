@@ -1,0 +1,26 @@
+name: agent-runbook-kit
+one_liner: Generate a minimal runbook kit for AI agent repositories.
+target_user: Agent tool maintainers
+pain_point: Agent projects often lack release, eval, and launch checklists.
+demo_command: PYTHONPATH=src python3 -m agent_runbook_kit examples/project.yaml
+topics:
+  - ai-tools
+  - agents
+  - runbook
+  - developer-tools
+  - cli
+  - llmops
+release_channel:
+  - github
+  - relevant-developer-communities
+launch_copy:
+  - I built agent-runbook-kit: Generate a minimal runbook kit for AI agent repositories.
+  - The pain: Agent projects often lack release, eval, and launch checklists.
+  - Try it with: PYTHONPATH=src python3 -m agent_runbook_kit examples/project.yaml
+quality_gate:
+  commands:
+    - python3 -m unittest discover -s tests
+metrics_goal:
+  day_1_stars: 5
+  day_3_stars: 15
+  day_7_stars: 50
