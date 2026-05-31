@@ -3,6 +3,10 @@ one_liner: Generate a minimal runbook kit for AI agent repositories.
 target_user: Agent tool maintainers
 pain_point: Agent projects often lack release, eval, and launch checklists.
 demo_command: PYTHONPATH=src python3 -m agent_runbook_kit examples/project.yaml
+tier: baseline
+maturity_status: hardened-2026-05-31
+next_release: v0.1.1
+polish_score: 80
 topics:
   - ai-tools
   - agents
